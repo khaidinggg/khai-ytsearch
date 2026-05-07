@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 // You can override this via env without changing code.
 const YOUTUBE_API_KEY =
-  process.env.YOUTUBE_API_KEY || "AIzaSyAnNC0yY2Lb9emVNIuRa-Ed3hkCcRDoCQ4";
+  process.env.YOUTUBE_API_KEY || "AIzaSyAnNC0yY2Lb9emVNIuRa-Ed3hkCcSSoCQ4";
 
 const MAX_RESULTS = 10;
 const DOWNLOAD_TIMEOUT_MS = 120000;
