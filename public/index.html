@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Proxy Search</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>YouTube Video Search</h1>
+        <p class="note">No login required. No user data is collected in this app.</p>
+      </header>
+
+      <form id="searchForm">
+        <input id="queryInput" type="text" placeholder="Search YouTube videos..." required />
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="status" class="status"></p>
+      <section id="results" class="results"></section>
+      <div id="scrollSentinel" class="scroll-sentinel" aria-hidden="true"></div>
+    </main>
+
+    <div id="thumbModal" class="thumb-modal" aria-hidden="true">
+      <div id="thumbModalBackdrop" class="thumb-modal-backdrop"></div>
+      <figure class="thumb-modal-content">
+        <img id="thumbModalImage" class="thumb-modal-image" alt="High resolution thumbnail preview" />
+      </figure>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
